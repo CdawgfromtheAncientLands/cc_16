@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { masterArray } from './data';
 import Profile from './Profile';
-import './Gallery.css'; //once again, later
+import './Gallery.css';
 
 const Gallery = () => {
   const [index, setIndex] = useState(0);
