@@ -1,10 +1,20 @@
-.gallery {
+.gallery-container {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .gallery {
     background-color: white;
     border-radius: 20px;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
   }
   

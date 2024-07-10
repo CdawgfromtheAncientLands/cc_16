@@ -17,9 +17,11 @@ const Gallery = () => {
   const [name, role, picture] = masterArray[index];
 
   return (
-    <div className="gallery">
+    <div className="gallery-container">
       <button onClick={handlePrevious} className="arrow left">←</button>
-      <Profile name={name} role={role} picture={picture} />
+      <div className="gallery">
+        <Profile name={name} role={role} picture={picture} />
+      </div>
       <button onClick={handleNext} className="arrow right">→</button>
     </div>
   );
